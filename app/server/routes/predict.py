@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from datetime import datetime
-from server.code.Willaq_Umu_Prediction import *
-from server.code.Data_Standardization import *
+from app.server.code.Willaq_Umu_Prediction import *
+from app.server.code.Data_Standardization import *
 import os
 import asyncio
 import pyrebase

@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from server.routes.training import router as TrainingRouter
-from server.routes.predict import router as PredictRouter
+from app.server.routes.training import router as TrainingRouter
+from app.server.routes.predict import router as PredictRouter
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="WILLAC UMU REST API")

@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from datetime import datetime
-from server.code.Data_Standardization import *
-from server.code.Multilayer_Perceptron_Trainer import *
+from app.server.code.Data_Standardization import *
+from app.server.code.Multilayer_Perceptron_Trainer import *
 import os
 import asyncio
 import pyrebase
