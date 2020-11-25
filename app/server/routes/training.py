@@ -7,7 +7,7 @@ import asyncio
 import pyrebase
 from datetime import datetime
 
-from server.database import (
+from app.server.database import (
     save_weightsbias,
     weigthsbias_helper
 )

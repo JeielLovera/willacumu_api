@@ -7,12 +7,12 @@ import asyncio
 import pyrebase
 from datetime import datetime
 
-from server.models.weights_bias import (
+from app.server.models.weights_bias import (
     WeightsBias,
     ErrorResponseModel,
 )
 
-from server.database import (
+from app.server.database import (
     get_weightsbias
 )
 
